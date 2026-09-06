@@ -14,7 +14,7 @@ const services = [
   { name: "Peinados & Accesorios", duration: 60, team: [1, 2] },
   { name: "Novias, Novios & Sociales", duration: 120, team: [1, 2] },
 ];
-const team = ["Lucía", "Valentina", "Sofía"];
+const team = ["Natt", "Virginia", "Maru", "Nat"];
 const steps = ["Servicio", "Profesional", "Día y hora", "Tus datos", "Seña"];
 type Booking = { id: number; service: number; person: number; date: string; time: string; name: string; phone: string; email: string; status: "Pendiente" | "Confirmado" | "Rechazado" };
 function days(offset: number) {
