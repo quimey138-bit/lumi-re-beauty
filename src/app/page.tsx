@@ -1,26 +1,9 @@
 "use client";
+import { BrandLogo } from "./components/brand-logo";
+
 import { useState } from "react";
 import { whatsappUrl } from "./lib/whatsapp";
 import { ServicesGrid, ServicesHelp } from "./components/services";
-const categories = [
-  {
-    name: "Skincare",
-    description: "Cuidado y bienestar para tu piel",
-  },
-  {
-    name: "Maquillaje",
-    description: "Todo para crear tu look",
-  },
-  {
-    name: "Perfumería",
-    description: "Fragancias para cada momento",
-  },
-  {
-    name: "Accesorios",
-    description: "Detalles que completan tu estilo",
-  },
-];
-
 const products = [
   {
     name: "Producto destacado",
@@ -51,8 +34,8 @@ export default function Home() {
 
 {/* NAVBAR */}
 <header className="navbar">
-  <a href="#inicio" className="logo-text">
-    LUMIÈRE
+  <a href="#inicio" className="brand-home" aria-label="Lumière — Inicio">
+    <BrandLogo />
   </a>
 
   <nav className="main-nav">
@@ -63,7 +46,7 @@ export default function Home() {
   </nav>
 
   <div className="nav-actions">
-    <a href="/turnos" className="nav-appointment">
+    <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
       AGENDAR TURNO
     </a>
 
@@ -95,7 +78,7 @@ export default function Home() {
     </a>
 
     <a
-      href="/turnos"
+      href="https://lumiere.site.agendapro.com/ar/sucursal/144425"
       className="mobile-menu-button"
       onClick={() => setMenuOpen(false)}
     >
@@ -122,7 +105,7 @@ export default function Home() {
 
     <div className="hero-buttons">
       <a
-        href="/turnos"
+        href="https://lumiere.site.agendapro.com/ar/sucursal/144425"
         className="primary-button"
       >
         AGENDAR TURNO
@@ -138,10 +121,7 @@ export default function Home() {
   </div>
 
   <div className="hero-visual">
-    <div className="hero-placeholder">
-      <span>BEAUTY · CARE · LIFESTYLE</span>
-      <strong>LUMIÈRE</strong>
-    </div>
+    <BrandLogo variant="hero" />
   </div>
 </section>
 
@@ -282,7 +262,7 @@ export default function Home() {
 
   <div className="contact-actions">
     <a
-      href="https://lumiere.site.agendapro.com"
+      href="https://lumiere.site.agendapro.com/ar/sucursal/144425"
       className="contact-card"
       target="_blank"
       rel="noopener noreferrer"
@@ -334,7 +314,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="footer">
         <div className="footer-brand">
-          <div className="logo-text">LUMIÈRE</div>
+          <BrandLogo variant="footer" />
           <p>Beauty · Skincare · Lifestyle</p>
         </div>
 

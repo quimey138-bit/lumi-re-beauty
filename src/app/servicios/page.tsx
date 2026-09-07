@@ -1,14 +1,15 @@
+import { BrandLogo } from "../components/brand-logo";
 import Link from "next/link";
-import { ServicesGrid, ServicesHelp } from "../components/services";
+import { ServicesCatalog, ServicesHelp } from "../components/services";
 
 export default function ServiciosPage() {
   return (
     <main className="inner-page">
       {/* HEADER */}
       <header className="navbar">
-        <Link href="/" className="logo-text">
-          LUMIÈRE
-        </Link>
+        <Link href="/" className="brand-home" aria-label="Lumière — Inicio">
+    <BrandLogo />
+  </Link>
 
         <nav className="main-nav">
           <Link href="/">Inicio</Link>
@@ -18,7 +19,7 @@ export default function ServiciosPage() {
         </nav>
 
         <div className="nav-actions">
-          <Link href="/#contacto" className="nav-appointment">
+          <Link href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
             AGENDAR TURNO
           </Link>
         </div>
@@ -43,14 +44,14 @@ export default function ServiciosPage() {
         <div className="section-heading">
           <h2 id="services-title">Un momento para vos</h2>
         </div>
-        <ServicesGrid />
+        <ServicesCatalog />
         <ServicesHelp />
       </section>
 
       {/* FOOTER */}
       <footer className="footer">
         <div className="footer-brand">
-          <div className="logo-text">LUMIÈRE</div>
+          <BrandLogo variant="footer" />
           <p>Beauty · Care · Lifestyle</p>
         </div>
 

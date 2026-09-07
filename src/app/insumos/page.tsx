@@ -1,3 +1,4 @@
+import { BrandLogo } from "../components/brand-logo";
 const products = [
   {
     number: "01",
@@ -26,9 +27,9 @@ export default function InsumosPage() {
     <main className="inner-page">
       {/* HEADER */}
       <header className="navbar">
-        <a href="/" className="logo-text">
-          LUMIÈRE
-        </a>
+        <a href="/" className="brand-home" aria-label="Lumière — Inicio">
+    <BrandLogo />
+  </a>
 
         <nav className="main-nav">
           <a href="/">Inicio</a>
@@ -38,7 +39,7 @@ export default function InsumosPage() {
         </nav>
 
         <div className="nav-actions">
-          <a href="/#contacto" className="nav-appointment">
+          <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
             AGENDAR TURNO
           </a>
         </div>
@@ -119,7 +120,7 @@ export default function InsumosPage() {
       {/* FOOTER */}
       <footer className="footer">
         <div className="footer-brand">
-          <div className="logo-text">LUMIÈRE</div>
+          <BrandLogo variant="footer" />
           <p>Beauty · Care · Lifestyle</p>
         </div>
 

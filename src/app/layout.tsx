@@ -5,7 +5,7 @@ import { WhatsAppButton } from "./components/whatsapp-button";
 export const metadata: Metadata = {
   title: "Lumière Beauty",
   description:
-    "Lumière Beauty — Productos de belleza, skincare, maquillaje y perfumería.",
+    "Lumière Beauty — Tratamientos faciales, masajes, cejas y pestañas, corporales, manos y pies. Reservá tu turno online.",
 };
 
 export default function RootLayout({

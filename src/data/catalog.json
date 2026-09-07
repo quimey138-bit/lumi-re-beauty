@@ -1,0 +1,512 @@
+[
+  {
+    "id": "servicio-01",
+    "category": "Faciales",
+    "name": "LUMIÈRE BALANCE - MANTENIMIENTO 15 DÍAS",
+    "duration": 120,
+    "price": 45000,
+    "description": "Leer: solo coordinado con la profesional.\nNO para una primera vez.\nDura 1hs ( la aplicación dice 2 por ajustes)\nTratamiento ideal para realizar entre sesiones de higiene profunda, diseñado para mantener la piel equilibrada, saludable y luminosa.\nIncluye:\n• Limpieza profunda\n• Exfoliación suave\n• Reparación cutánea\n・Descongestion\n• Hidratación y nutrición de la piel\nPersonalizado para cada piel:\nAplicación de mascarillas nutritivas, hidratantes, calmantes o reparadoras según las necesidades específicas de la piel al momento de la sesión.\nRecomendado cada 15 días para potenciar y prolongar los resultados de la Higiene Profunda Lumière.",
+    "sessions": 1,
+    "note": "Duración del tratamiento: 1 hora. AgendaPro muestra un bloque de 2 horas. Solo con coordinación previa; no disponible para una primera visita."
+  },
+  {
+    "id": "servicio-02",
+    "category": "Faciales",
+    "name": "PACK SESIÓN LUMIÈRE X3",
+    "duration": 120,
+    "price": 183600,
+    "description": "ANTES $196.620\n\nSESIÓN LUMIÈRE ( HIGIENE PROFUNDA ) x 3 SESIONES\n\nEste tratamiento está diseñado para abordar la piel de manera estratégica, enfocándose no solo en la limpieza, sino en mejorar su calidad, equilibrio y textura.\n\nLa importancia de las 3 sesiones:\nLa continuidad es clave para lograr resultados duraderos:\n\n• Regulación del sebo\n• Reducción sostenida de comedones\n• Refinamiento de poros\n• Mejora visible de la textura y luminosidad\n• Control de brotes leves\n\nINCLUYE:\nHIGIENE\nMÁSCARA ENZIMÁTICA\nMÁSCARA QUERATOLÍTICA (EXFOLIACIÓN)\nVAPOR DE OZONO ( SI LA PIEL LO PERMITE)\nPUNTA DE DIAMANTE Ó ESPATULA\nULTRASÓNICA\nEXTRACCIONES\nASEPSIA / ALTA FRECUENCIA\nMÁSCARA DESCONGESTIVA\nMÁSCARA DE HIDRATACIÓN\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 3,
+    "note": ""
+  },
+  {
+    "id": "servicio-03",
+    "category": "Faciales",
+    "name": "SESIÓN EQUILIBRANTE ( ACNÉ - ROSACEA )",
+    "duration": 120,
+    "price": 75000,
+    "description": "IDEAL PARA PIELES CON PATOLOGÍAS COMO ROSACÉA Y ACNÉ , ENFOCADO EN LA\nDESCONGESTIÓN, REPARACIÓN E HIDRATACIÓN DE LA PIEL\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA\nPACIENTE.\nAPTO TODO TIPO DE PIELES ( SENSIBLE / EMBARAZADAS )\n\nINCLUYE :\nHIGIENE\nMÁSCARA ENZIMÁTICA\nBLEND DE ACTIVOS PARA PATOLOGÍA\nEXTRACCIONES\nASEPSIA\nMÁSCARA DESCONGESTIVA FOTOACTIVADA\nVAPOR DE OZONO FRIO\nMÁSCARA CON PROBIOTICOS PARA PATOLOGÍA\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-04",
+    "category": "Faciales",
+    "name": "SESIÓN LUMIÈRE ( HIGIENE PROFUNDA )",
+    "duration": 120,
+    "price": 72000,
+    "description": "TRATAMIENTO IDEAL PARA REMOVER LAS CÉLULAS MUERTAS, AFINAR LA PIEL, ELIMINAR LOS\nCOMEDONES (PUNTOS NEGROS), QUISTES DE MILLIUMS, APORTA OXIGENACIÓN E HIDRATACIÓN\nDE LA PIEL Y QUE ESTA SE VEA MÁS LUMINOSA, SUAVE Y TERSA. EL PROCEDIMIENTO Y LOS\nPRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA PACIENTE APTO TODO TIPO\nDE PIELES ( SENSIBLE , EMBARAZADAS )\n\nINCLUYE:\nHIGIENE\nMÁSCARA ENZIMÁTICA\nMÁSCARA QUERATOLÍTICA (EXFOLIACIÓN)\nVAPOR DE OZONO ( SI LA PIEL LO PERMITE)\nPUNTA DE DIAMANTE Ó ESPATULA\nULTRASÓNICA\nEXTRACCIONES\nASEPSIA / ALTA FRECUENCIA\nMÁSCARA DESCONGESTIVA\nMÁSCARA DE HIDRATACIÓN\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-05",
+    "category": "Faciales",
+    "name": "SESIÓN MASAJES FACIALES",
+    "duration": 120,
+    "price": 63750,
+    "description": "SE REALIZA UNA LIMPIEZA SIMPLE , LUEGO MASAJES MANUALES Y MASAJES CON ELEMENTOS.\n\nELEMENTOS:\nGUA-SHA : DRENA, ATENÚA LÍNEAS DE EXPRESIÓN EFECTO LIFTING, ELIMINA TOXINAS.\nROLLER DE CUARZO : AYUDA A LA PENETRACIÓN DE ACTIVOS, PROMUEVE EL DRENAJE ALIVIANDO LA HINCHAZÓN Y DESINFLACIÓN.\nCRYO ICE : SE UTILIZAN FRÍOS, DESCONGESTIONAN Y ESTIMULAN LA CIRCULACIÓN SANGUÍNEA, AUMENTANDO LA OXIGENACIÓN DE LA PIEL Y REDUCIENDO LA INFLAMACIÓN.\nALTA FRECUENCIA CAPILAR\n\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA PACIENTE.\nAPTO PARA TODO TIPO DE PIEL, EXCEPTO ACNÉ INFLAMATORIO Y ROSÁCEA EN ESTADIOS AVANZADOS.\n\nINCLUYE\n\nHIGIENE\nMÁSCARA ENZIMÁTICA\nMASAJES\nMÁSCARA DESCONGESTIVA\nVAPOR DE OZONO FRIO\nMASCARÁ HIDRATANTES CON VITAMINAS\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-06",
+    "category": "Faciales",
+    "name": "SESIÓN NUEVA PIEL ( HIGIENE PROF + DERMAPLANING )",
+    "duration": 120,
+    "price": 84000,
+    "description": "Tratamiento para afinar la piel con la técnica peeling con bisturí sumando blend de activos, para el peeling ( ácidos ) con esto tratamos manchas, arrugas, poros dilatados, hidratación a profundidad, oxigenación e luminosidad.\nCon dermaplaning se retiran las células muertas estimulando la regeneración celular, el vello no crece mas oscuro, grueso, ni en cantidad.\n* Se realizara extracciones de ser necesario.\n* Todos los procedimientos y productos se adaptan a las necesidades de la piel de cada paciente.\n* El paciente firmara un consentimiento donde se compromete a cumplir con el tratamiento e indicaciones domiciliarias.",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-07",
+    "category": "Faciales",
+    "name": "SESIÓN NUEVA PIEL + PEELING ( HIGIENE PROF + DERMAPLANING +PEELING)",
+    "duration": 120,
+    "price": 95000,
+    "description": "TRATAMIENTO PARA AFINAR LA PIEL CON LA TÉCNICA DE PEELING CON BISTURÍ. SE RETIRAN LAS\nCÉLULAS MUERTAS Y VELLOS ( PELUSA ) DEPOSITADA SOBRE LA DERMIS, AUMENTANDO LA\nPENETRACIÓN DE PRINCIPIOS ACTIVOS. ESTIMULA LA REGENERACIÓN CELULAR, APORTA\nOXIGENACIÓN, HIDRATACIÓN Y LUMINOSIDAD A LA PIEL.\n- EL VELLO NO CRECE MÁS OSCURO, NI MÁS CANTIDAD, NI MÁS GRUESO.\n- EL PROCEDIMIENTO SE REALIZA CON HOJAS DE BISTURÍ IMPORTADAS - SWANN MORTON\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA\nPACIENTE APTO TODO TIPO DE PIELES ( SENSIBLE , ROSACEA , EMBARAZADAS , ACNÉ ,\nHIPERPIGMENTACIONES / MANCHAS )\n\nINCLUYE:\nHIGIENE\nMÁSCARA QUERATOLÍTICA\nMÁSCARA ENZIMÁTICA\nDERMAPLANING\nEXTRACCIONES\nASEPSIA\nMÁSCARA DESCONGESTIVA\nVAPOR DE OZONO FRIO\nMÁSCARA DE HIDRATACIÓN\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-08",
+    "category": "Faciales",
+    "name": "SESIÓN PEELING OJERAS",
+    "duration": 120,
+    "price": 61120,
+    "description": "TRATAMIENTO QUE PRODUCE EXFOLIACIÓN DE LA ZONA ORBICULAR A TRAVÉS DE UN PROCESO\nQUÍMICO.\nPENSADO PARA TRABAJAR PIGMENTACION DE OJERAS Y APORTAR LUMINOSIDAD A LA MIRADA\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA\nPACIENTE.",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-09",
+    "category": "Faciales",
+    "name": "SESIÓN PREMIUM GLOW ( HIGIENE+DERMAPLANING + MICRONEEDLING )",
+    "duration": 120,
+    "price": 110000,
+    "description": "SESIÓN EN DONDE SE POTENCIA LA TECNICA DE DERMAPLANING Y MICRONEEDLING ( DERMAPEN)\n\nMEJORA :\n\nARRUGAS\nAPARIENCIA DE POROS\nLINEAS DE EXPRESIÓN\nAPORTA HIDRATACIÓN\nLUMINOSIDAD\nTEXTURA DE LA PIEL\nASPECTO GENERAL DE LA PIEL\nCITARICES DE ACNÉ\nHIPERPIGMENTACIONES - MANCHAS DE ACNÉ\nBOLSAS Y OJERAS\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA PACIENTE\n\nINCLUYE\n\nHIGIENE\nMÁSCARA ENZIMÁTICA\nDERMAPLANING\nEXTRACCIONES SOLO DE SER NECESARIO\nASEPSIA\nMICRONEEDLING ( ACTIVOS ESTÉRILES )\nMÁSCARA DESCONGESTIVA\nVAPOR DE OZONO FRIO\nMÁSCARA REGENERADORA\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-10",
+    "category": "Faciales",
+    "name": "SESIÓN PRO AGE ( HIGIENE PROF+ MICRONEEDLING )",
+    "duration": 120,
+    "price": 95000,
+    "description": "TRATAMIENTO QUE GENERA MICROCANALES EN LA PIEL ESTIMULANDO LA PRODUCCIÓN DE COLÁGENO Y ELASTINA, DA UN EFECTO REJUVENECEDOR Y FIRMEZA A LA PIEL. SE REALIZA CON UN DISPOSITIVO LLAMADO DERMAPEN QUE TIENE MICRO AGUJAS DESCARTABLES QUE PENETRAN EN LA PIEL DE FORMA TRANSDÉRMICA E INDOLORA, SE UTILIZA COCTEL DE ACTIVOS ESTÉRILES QUE PENETRAN MÁS. NO RECOMENDADO PARA PIELES SENSIBLES, SE PUEDE REALIZAR CADA 15 DÍAS, SI TE APLICAS BÓTOX TENÉS QUE ESPERAR 15 DÍAS PARA REALIZARLO.\n\nMEJORA :\nARRUGAS\nAPARIENCIA DE POROS\nLINEAS DE EXPRESIÓN\nAPORTA HIDRATACIÓN\nLUMINOSIDAD\nTEXTURA DE LA PIEL\nASPECTO GENERAL DE LA PIEL\nCITARICES DE ACNÉ\nHIPERPIGMENTACIONES - MANCHAS DE ACNÉ\nBOLSAS Y OJERAS\nEL PROCEDIMIENTO Y LOS PRODUCTOS SE ADAPTAN A LAS NECESIDADES DE LA PIEL DE CADA PACIENTE\n\nINCLUYE\n\nHIGIENE\nMÁSCARA ENZIMÁTICA\nEXTRACCIONES ( SOLO SI ES NECESARIO )\nMICRONEEDLING ( ACTIVOS ESTERILES )\nMÁSCARA DESCONGESTIVA\nVAPOR DE OZONO FRIO\nMÁSCARA REPARADORA\nPREPARACIÓN FINAL ( SERUM, HIDRATACIÓN )\nPROTECTOR SOLAR",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-11",
+    "category": "Masajes",
+    "name": "PACK DESCONTRACTURANTE X3",
+    "duration": 90,
+    "price": 140000,
+    "description": "ANTES $144.000\n\nPACK DESCONTRACTURANTE X3 SESIONES",
+    "sessions": 3,
+    "note": ""
+  },
+  {
+    "id": "servicio-12",
+    "category": "Masajes",
+    "name": "CORPORAL CON DRENAJE LINFÁTICO",
+    "duration": 90,
+    "price": 69130,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-13",
+    "category": "Masajes",
+    "name": "CORPORAL CON PIEDRAS CALIENTES",
+    "duration": 90,
+    "price": 58000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-14",
+    "category": "Masajes",
+    "name": "CORPORAL + DIGITOPUNTURA",
+    "duration": 90,
+    "price": 56000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-15",
+    "category": "Masajes",
+    "name": "DESCONTRACTURANTE / RELAJANTE",
+    "duration": 90,
+    "price": 55200,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-16",
+    "category": "Masajes",
+    "name": "FACIAL CON DRENAJE LINFÁTICO",
+    "duration": 90,
+    "price": 63750,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-17",
+    "category": "Cejas y Pestañas",
+    "name": "LAMINADO DE CEJAS",
+    "duration": 60,
+    "price": 52700,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-18",
+    "category": "Cejas y Pestañas",
+    "name": "LIFTING DE PESTAÑAS",
+    "duration": 60,
+    "price": 57540,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-19",
+    "category": "Cejas y Pestañas",
+    "name": "LIFTING + LAMINADO + PERFILADO",
+    "duration": 60,
+    "price": 123370,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-20",
+    "category": "Cejas y Pestañas",
+    "name": "LIFTING + TINTURA",
+    "duration": 60,
+    "price": 63200,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-21",
+    "category": "Cejas y Pestañas",
+    "name": "PERFILADO DE BOZO",
+    "duration": 60,
+    "price": 10800,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-22",
+    "category": "Cejas y Pestañas",
+    "name": "PERFILADO DE CEJAS",
+    "duration": 60,
+    "price": 35400,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-23",
+    "category": "Cejas y Pestañas",
+    "name": "PERFILADO + LAMINADO",
+    "duration": 60,
+    "price": 74520,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-24",
+    "category": "Corporales",
+    "name": "HIGIENE RENOVACIÓN DE ESPALDA",
+    "duration": 120,
+    "price": 67470,
+    "description": "* Incluye extracciones.\n* Todos los procedimientos y productos se adaptan a las necesidades de la piel de cada paciente.\n* El paciente firmara un consentimiento donde se compromete a cumplir con el tratamiento e indicaciones domiciliarias.",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-25",
+    "category": "Corporales",
+    "name": "HIGIENE RENOVACIÓN DE ESPALDA + DERMAPLANING",
+    "duration": 120,
+    "price": 78660,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-26",
+    "category": "Corporales",
+    "name": "HIGIENE RENOVACIÓN DE ESPALDA + PEELING",
+    "duration": 120,
+    "price": 78660,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-27",
+    "category": "Corporales",
+    "name": "HIGIENE RENOVACIÓN DE GLUTEOS",
+    "duration": 120,
+    "price": 69130,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-28",
+    "category": "Manos y Pies",
+    "name": "ARREGLO UÑA ROTA POR UÑA",
+    "duration": 120,
+    "price": 12430,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-29",
+    "category": "Manos y Pies",
+    "name": "BELLEZA DE MANOS CON ESMALTADO",
+    "duration": 120,
+    "price": 29000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-30",
+    "category": "Manos y Pies",
+    "name": "BELLEZA DE MANOS SIN ESMALTADO",
+    "duration": 120,
+    "price": 23700,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-31",
+    "category": "Manos y Pies",
+    "name": "COLOCACIÓN STRASS",
+    "duration": 120,
+    "price": 0,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-32",
+    "category": "Manos y Pies",
+    "name": "DISEÑO NAIL ART SIMPLE PAR",
+    "duration": 120,
+    "price": 0,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-33",
+    "category": "Manos y Pies",
+    "name": "ESMALTADO SEMIPERMANENTE LISO",
+    "duration": 120,
+    "price": 35000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-34",
+    "category": "Manos y Pies",
+    "name": "FRENCH / DEGRADÉ",
+    "duration": 120,
+    "price": 19500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-35",
+    "category": "Manos y Pies",
+    "name": "KAPPING MASCULINO",
+    "duration": 120,
+    "price": 31500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-36",
+    "category": "Manos y Pies",
+    "name": "KAPPING + SEMIPERMANENTE LISO",
+    "duration": 120,
+    "price": 40000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-37",
+    "category": "Manos y Pies",
+    "name": "MANICURÍA MASCULINA CON ESMALTADO",
+    "duration": 120,
+    "price": 26500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-38",
+    "category": "Manos y Pies",
+    "name": "MANICURÍA MASCULINA SIN ESMALTADO",
+    "duration": 120,
+    "price": 22500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-39",
+    "category": "Manos y Pies",
+    "name": "MANICURÍA RUSA (ADICIONAL)",
+    "duration": 120,
+    "price": 12500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-40",
+    "category": "Manos y Pies",
+    "name": "PEDICURÍA ESTETICA CON SEMIPERMANENTE LISO",
+    "duration": 120,
+    "price": 50000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-41",
+    "category": "Manos y Pies",
+    "name": "PEDICURÍA ESTÉTICA ESMALTADO TRADICIONAL",
+    "duration": 120,
+    "price": 45100,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-42",
+    "category": "Manos y Pies",
+    "name": "PEDICURÍA ESTÉTICA SIN ESMALTADO",
+    "duration": 120,
+    "price": 37500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-43",
+    "category": "Manos y Pies",
+    "name": "PRESS ON NAILS LISO",
+    "duration": 120,
+    "price": 35200,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-44",
+    "category": "Manos y Pies",
+    "name": "PRESS ON NAILS SET CON (1 DISEÑO SIMPLE)",
+    "duration": 120,
+    "price": 0,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-45",
+    "category": "Manos y Pies",
+    "name": "RETIRADO ESMALTE COMÚN",
+    "duration": 120,
+    "price": 11200,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-46",
+    "category": "Manos y Pies",
+    "name": "RETIRO KAPPING SIN BELLEZA",
+    "duration": 120,
+    "price": 20000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-47",
+    "category": "Manos y Pies",
+    "name": "RETIRO SEMIPERMANENTE SIN BELLEZA",
+    "duration": 120,
+    "price": 16500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-48",
+    "category": "Manos y Pies",
+    "name": "RETIRO SEMIPERMANTE CON BELLEZA",
+    "duration": 120,
+    "price": 22500,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-49",
+    "category": "Manos y Pies",
+    "name": "RETIRO SOFT GEL ( INCLUYE BELLEZA )",
+    "duration": 120,
+    "price": 30000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-50",
+    "category": "Manos y Pies",
+    "name": "SOFT GEL LISO",
+    "duration": 120,
+    "price": 42000,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  },
+  {
+    "id": "servicio-51",
+    "category": "Manos y Pies",
+    "name": "SOFT GEL SET (1 DISEÑO SIMPLE)",
+    "duration": 120,
+    "price": 0,
+    "description": "",
+    "sessions": 1,
+    "note": ""
+  }
+]
