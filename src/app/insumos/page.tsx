@@ -1,41 +1,22 @@
+import Link from "next/link";
 import { BrandLogo } from "../components/brand-logo";
-const products = [
-  {
-    number: "01",
-    category: "BELLEZA",
-    name: "Producto destacado",
-  },
-  {
-    number: "02",
-    category: "SKINCARE",
-    name: "Producto destacado",
-  },
-  {
-    number: "03",
-    category: "MAQUILLAJE",
-    name: "Producto destacado",
-  },
-  {
-    number: "04",
-    category: "ACCESORIOS",
-    name: "Producto destacado",
-  },
-];
+import { ProductsGrid } from "../components/products";
+import { whatsappUrl } from "../lib/whatsapp";
 
 export default function InsumosPage() {
   return (
     <main className="inner-page">
       {/* HEADER */}
       <header className="navbar">
-        <a href="/" className="brand-home" aria-label="Lumière — Inicio">
-    <BrandLogo />
-  </a>
+        <Link href="/" className="brand-home" aria-label="Lumière — Inicio">
+          <BrandLogo />
+        </Link>
 
         <nav className="main-nav">
-          <a href="/">Inicio</a>
-          <a href="/servicios">Servicios</a>
-          <a href="/insumos">Insumos</a>
-          <a href="/#nosotros">Nosotras</a>
+          <Link href="/">Inicio</Link>
+          <Link href="/servicios">Servicios</Link>
+          <Link href="/insumos">Insumos</Link>
+          <Link href="/#nosotros">Nosotras</Link>
         </nav>
 
         <div className="nav-actions">
@@ -74,32 +55,7 @@ export default function InsumosPage() {
           </p>
         </div>
 
-        <div className="insumos-grid">
-          {products.map((product) => (
-            <article className="insumo-page-card" key={product.number}>
-              <div className="insumo-image">
-                <span>{product.number}</span>
-
-                <div>
-                  <small>{product.category}</small>
-                  <strong>LUMIÈRE</strong>
-                </div>
-              </div>
-
-              <div className="insumo-info">
-                <span>{product.category}</span>
-
-                <h3>{product.name}</h3>
-
-                <p>Consultar disponibilidad</p>
-
-                <a href="/#contacto">
-                  CONSULTAR →
-                </a>
-              </div>
-            </article>
-          ))}
-        </div>
+        <ProductsGrid />
       </section>
 
       {/* CTA */}
@@ -112,7 +68,7 @@ export default function InsumosPage() {
           en particular?
         </h2>
 
-        <a href="/#contacto" className="primary-button">
+        <a href={whatsappUrl("Hola, quiero consultar por los productos de Lumière.")} className="primary-button">
           CONSULTAR
         </a>
       </section>

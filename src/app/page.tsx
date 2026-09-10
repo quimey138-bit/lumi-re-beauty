@@ -1,31 +1,11 @@
 "use client";
 import { BrandLogo } from "./components/brand-logo";
 
+import { ProductsGrid } from "./components/products";
 import { useState } from "react";
 import { whatsappUrl } from "./lib/whatsapp";
 import { ServicesGrid, ServicesHelp } from "./components/services";
-const products = [
-  {
-    name: "Producto destacado",
-    category: "Belleza",
-    price: "Consultar",
-  },
-  {
-    name: "Producto destacado",
-    category: "Skincare",
-    price: "Consultar",
-  },
-  {
-    name: "Producto destacado",
-    category: "Maquillaje",
-    price: "Consultar",
-  },
-  {
-    name: "Producto destacado",
-    category: "Accesorios",
-    price: "Consultar",
-  },
-];
+
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -155,38 +135,7 @@ export default function Home() {
     </a>
   </div>
 
-  <div className="products-grid">
-    {products.map((product, index) => (
-      <article className="product-card" key={index}>
-        <div className="product-image">
-          <span className="product-number">
-            {String(index + 1).padStart(2, "0")}
-          </span>
-
-          <div className="product-placeholder">
-            <span>{product.category}</span>
-            <strong>LUMIÈRE</strong>
-          </div>
-        </div>
-
-        <div className="product-info">
-          <span className="product-category">
-            {product.category}
-          </span>
-
-          <h3>{product.name}</h3>
-
-          <p className="product-price">
-            {product.price}
-          </p>
-
-          <a href="#contacto" className="product-link">
-            CONSULTAR →
-          </a>
-        </div>
-      </article>
-    ))}
-  </div>
+  <ProductsGrid />
 </section>
       {/* BANNER */}
       <section className="ritual-banner">
@@ -203,7 +152,7 @@ export default function Home() {
             Tomate un momento para vos.
           </p>
 
-          <a href="#productos" className="primary-button">
+          <a href="#insumos" className="primary-button">
             DESCUBRIR
           </a>
         </div>
@@ -321,7 +270,7 @@ export default function Home() {
         <div className="footer-links">
           <div>
             <h4> TIENDA </h4>
-            <a href="#productos">Productos</a>
+            <a href="#insumos">Productos</a>
             <a href="#categorias">Categorías</a>
           </div>
 
