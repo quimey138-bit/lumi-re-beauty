@@ -1,0 +1,36 @@
+.platform { max-width:1120px; margin:auto; padding:28px 24px 100px; }
+.platform>header { display:flex; align-items:center; justify-content:space-between; gap:24px; border-bottom:1px solid var(--border); padding:12px 0 24px; }
+.platform nav,.platform-actions { display:flex; gap:18px; flex-wrap:wrap; align-items:center; }
+.platform a { text-decoration:underline; text-underline-offset:4px; }
+.platform h1 { font-family:Georgia,serif; font-size:clamp(2rem,6vw,3.5rem); font-weight:400; margin:48px 0 28px; }
+.platform h2 { font-weight:500; font-size:1.35rem; }
+.platform p,.platform li { line-height:1.65; }
+.platform-card { background:#fffaf5; border:1px solid var(--border); border-radius:8px; padding:28px; margin:24px 0; overflow-wrap:anywhere; }
+.platform-form { display:flex; flex-direction:column; gap:18px; max-width:650px; }
+.platform-form label { display:flex; flex-direction:column; gap:8px; }
+.platform-form textarea { border:1px solid var(--border); border-radius:4px; padding:12px; color:var(--text); background:white; font:inherit; resize:vertical; }
+.platform-reschedule { margin-top:16px; }
+.platform-reschedule summary { cursor:pointer; text-decoration:underline; margin-bottom:12px; }
+.platform input,.platform select { border:1px solid var(--border); border-radius:4px; background:white; color:var(--text); padding:12px; min-width:0; max-width:100%; font:inherit; }
+.platform button,.platform-cart-button,.consent-banner button { background:var(--text); color:white; padding:12px 20px; border:1px solid var(--text); border-radius:4px; cursor:pointer; font:inherit; }
+.platform button:disabled { opacity:.5; cursor:not-allowed; }
+.platform .platform-secondary { background:transparent; color:var(--text); }
+.platform .platform-check { flex-direction:row; align-items:flex-start; }
+.platform-check input { margin:5px 0; }
+.platform-row { border-bottom:1px solid var(--border); padding:16px 0; }
+.platform-row input { width:84px; margin:0 12px; }
+.platform-row strong { display:block; margin-top:16px; }
+.platform-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)); gap:24px; }
+.platform-grid .platform-card { margin:0; }
+.platform-slots { display:flex; flex-wrap:wrap; gap:10px; }
+.platform-slots button[aria-pressed=true] { outline:3px solid var(--beige-dark); outline-offset:3px; }
+.platform-count { font-size:2.5rem; margin:12px 0; }
+.platform-cart-button { margin-top:12px; width:100%; }
+.platform-toolbar { display:flex; justify-content:center; flex-wrap:wrap; gap:24px; padding:12px; background:#fffaf5; color:var(--text); font-size:13px; border-bottom:1px solid var(--border); }
+.platform-toolbar a { text-decoration:underline; text-underline-offset:4px; }
+.consent-banner { position:fixed; bottom:18px; left:18px; max-width:min(540px,calc(100% - 36px)); background:#fffaf5; border:1px solid var(--border); padding:20px; border-radius:8px; box-shadow:0 5px 25px #0002; z-index:10000; }
+.consent-banner p { line-height:1.5; margin:0 0 12px; }
+.consent-banner button { margin:4px 8px 0 0; }
+.consent-settings { position:fixed; left:12px; bottom:12px; z-index:1000; background:#fffaf5; color:var(--text); padding:8px 12px; border:1px solid var(--border); border-radius:4px; cursor:pointer; }
+.platform :focus-visible,.platform-toolbar :focus-visible { outline:3px solid var(--beige-dark); outline-offset:4px; }
+@media(max-width:600px){.platform{padding:18px 16px 100px}.platform>header{align-items:flex-start;flex-direction:column}.platform-card{padding:20px}.platform nav{gap:14px}.platform-row input{margin:8px 0}.platform-actions{gap:12px}}

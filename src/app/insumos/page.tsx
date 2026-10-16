@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { ShopNavTools } from "../../components/cart-trigger";
 import { BrandLogo } from "../components/brand-logo";
 import { ProductsGrid } from "../components/products";
 import { whatsappUrl } from "../lib/whatsapp";
+
+export const metadata = { title: 'Insumos y skincare | Lumière Beauty', description: 'Conocé los productos de skincare, accesorios y bienestar de Lumière Beauty.', alternates: { canonical: '/insumos' } };
 
 export default function InsumosPage() {
   return (
@@ -14,12 +17,13 @@ export default function InsumosPage() {
 
         <nav className="main-nav">
           <Link href="/">Inicio</Link>
-          <Link href="/servicios">Servicios</Link>
           <Link href="/insumos">Insumos</Link>
+          <Link href="/servicios">Servicios</Link>
           <Link href="/#nosotros">Nosotras</Link>
         </nav>
 
         <div className="nav-actions">
+          <ShopNavTools />
           <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
             AGENDAR TURNO
           </a>
@@ -55,7 +59,7 @@ export default function InsumosPage() {
           </p>
         </div>
 
-        <ProductsGrid />
+        <ProductsGrid searchable />
       </section>
 
       {/* CTA */}

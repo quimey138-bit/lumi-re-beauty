@@ -3,6 +3,8 @@ import { BrandLogo } from "./components/brand-logo";
 
 import { ProductsGrid } from "./components/products";
 import { useState } from "react";
+import Image from "next/image";
+import { ShopNavTools } from "../components/cart-trigger";
 import { whatsappUrl } from "./lib/whatsapp";
 import { ServicesGrid, ServicesHelp } from "./components/services";
 
@@ -20,19 +22,22 @@ export default function Home() {
 
   <nav className="main-nav">
     <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
     <a href="#insumos">Insumos</a>
+    <a href="#servicios">Servicios</a>
     <a href="#nosotros">Nosotras</a>
   </nav>
 
   <div className="nav-actions">
+    <ShopNavTools />
     <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
       AGENDAR TURNO
     </a>
 
         <button
       className="menu-button"
-      aria-label="Abrir menú"
+      aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+      aria-expanded={menuOpen}
+      aria-controls="lumiere-mobile-menu"
       onClick={() => setMenuOpen(!menuOpen)}
     >
       {menuOpen ? "×" : "☰"}
@@ -40,17 +45,17 @@ export default function Home() {
   </div>
 </header>
 {menuOpen && (
-  <div className="mobile-menu">
+  <div className="mobile-menu" id="lumiere-mobile-menu">
     <a href="#inicio" onClick={() => setMenuOpen(false)}>
       Inicio
     </a>
 
-    <a href="#servicios" onClick={() => setMenuOpen(false)}>
-      Servicios
-    </a>
-
     <a href="#insumos" onClick={() => setMenuOpen(false)}>
       Insumos
+    </a>
+
+    <a href="#servicios" onClick={() => setMenuOpen(false)}>
+      Servicios
     </a>
 
     <a href="#nosotros" onClick={() => setMenuOpen(false)}>
@@ -105,6 +110,28 @@ export default function Home() {
   </div>
 </section>
 
+{/* INSUMOS */}
+<section id="insumos" className="section products-section">
+  <div className="section-heading products-heading">
+    <div>
+      <span className="eyebrow">LUMIÈRE BEAUTY</span>
+
+      <h2>Elegidos para tu rutina</h2>
+
+      <p>
+        Descubrí nuestra selección de productos y encontrá
+        todo lo que necesitás.
+      </p>
+    </div>
+
+    <a href="/insumos" className="text-link">
+      EXPLORAR INSUMOS →
+    </a>
+  </div>
+
+  <ProductsGrid />
+</section>
+
 {/* SERVICIOS */}
 <section id="servicios" className="section lumiere-services-section">
   <div className="section-heading">
@@ -116,27 +143,6 @@ export default function Home() {
   <ServicesHelp />
 </section>
 
-{/* INSUMOS */}
-<section id="insumos" className="section products-section">
-  <div className="section-heading products-heading">
-    <div>
-      <span className="eyebrow">LUMIÈRE BEAUTY</span>
-
-      <h2>Insumos</h2>
-
-      <p>
-        Descubrí nuestra selección de productos y encontrá
-        todo lo que necesitás.
-      </p>
-    </div>
-
-    <a href="#contacto" className="text-link">
-      CONSULTAR →
-    </a>
-  </div>
-
-  <ProductsGrid />
-</section>
       {/* BANNER */}
       <section className="ritual-banner">
         <div>
@@ -159,36 +165,17 @@ export default function Home() {
       </section>
 
 {/* SOBRE LUMIÈRE */}
-<section id="nosotros" className="about-section">
-  <div className="about-image">
-    <div className="about-placeholder">
-      <span>LUMIÈRE BEAUTY</span>
-      <strong>Tu momento</strong>
-    </div>
-  </div>
-
+<section id="nosotros" className="about-section shop-about">
+  <div className="about-image shop-about-image"><Image src="/team/nosotras.jpg" alt="El equipo de Lumière Beauty en el estudio" fill sizes="(max-width: 900px) 88vw, 44vw" /></div>
   <div className="about-content">
     <span className="eyebrow">SOBRE LUMIÈRE</span>
-
-    <h2>
-      Tu mejor versión
-      <br />
-      empieza acá.
-    </h2>
-
-    <p>
-      Lumière es un espacio pensado para acompañarte en tus
-      momentos de belleza y cuidado personal.
-    </p>
-
-    <p>
-      Descubrí nuestros servicios, conocé nuestros insumos y
-      encontrá un momento para vos.
-    </p>
-
-    <a href="#contacto" className="text-link">
-      CONOCÉ LUMIÈRE →
-    </a>
+    <h2>Tu espacio de belleza en Palermo.</h2>
+    <p>Lumière Beauty es un estudio privado de estética y belleza dedicado al cuidado de la piel y al bienestar, con atención profesional y personalizada.</p>
+    <p>Combinamos cosmetología y dermatocosmiatría con tratamientos faciales y corporales, cejas y pestañas, manos y pies, masajes y depilación láser.</p>
+    <p>También te acompañamos en ocasiones especiales con maquillaje y peinado para novias y eventos.</p>
+    <p className="shop-about-closing">Un momento para vos, para cuidar tu piel y realzar tu belleza.</p>
+    <a href="/servicios" className="primary-button">CONOCÉ NUESTROS SERVICIOS</a>
+    <a href="https://maps.app.goo.gl/wK2Db8JKDRtgoRxe8" className="text-link" target="_blank" rel="noopener noreferrer">CÓMO LLEGAR AL ESTUDIO ↗</a>
   </div>
 </section>
 

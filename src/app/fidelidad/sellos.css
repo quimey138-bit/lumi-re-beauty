@@ -1,0 +1,75 @@
+.ritual-page { background: #f4efe7; color: #634b39; min-height: 100vh; }
+.ritual-page .platform { max-width: 920px; padding-top: 18px; }
+.ritual-page .platform>header { border-color: #d9cdbf; font-size: 12px; }
+.ritual-page .platform>header>a { letter-spacing: .15em; text-decoration: none; }
+.ritual-page .platform>h1 { font-size: clamp(32px,6vw,48px); margin: 40px 0 30px; letter-spacing: -.025em; }
+.ritual { --ritual-ink: #735239; --ritual-border: #d8ccbd; --ritual-soft: #806c5c; max-width: 800px; margin: 30px auto; color: #634b39; }
+.ritual h2,.ritual h3,.ritual p { margin: 0; }
+.ritual .ritual-eyebrow { font-size: 10px; letter-spacing: .16em; color: #7c6654; font-weight: 500; }
+.ritual-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 26px; }
+.ritual-heading h2 { font: 400 clamp(26px,5vw,36px) Georgia,serif; letter-spacing: -.025em; margin: 12px 0; }
+.ritual-heading p { font-size: 13px; color: var(--ritual-soft); line-height: 1.6; }
+.platform .ritual-refresh { background: transparent; border: 0; color: #735239; text-decoration: underline; text-underline-offset: 4px; font-size: 11px; padding: 10px 0; flex-shrink: 0; }
+.ritual-card { border: 1px solid var(--ritual-border,#d8ccbd); border-radius: 16px; background: #f9f5ee; padding: 32px; }
+.ritual-card-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 28px; }
+.ritual-card-top h3,.ritual-activity>h3 { font: 400 12px Georgia,serif; letter-spacing: .23em; }
+.ritual-card-top p { font: 400 20px Georgia,serif; color: #735239; }
+.ritual-card-top strong { font-weight: 400; }
+.ritual-stamps { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 22px 18px; list-style: none; padding: 0; margin: 0; }
+.ritual-stamps li { display: flex; flex-direction: column; align-items: center; gap: 7px; min-width: 0; }
+.ritual-stamp-circle { position: relative; display: flex; align-items: center; justify-content: center; border-radius: 50%; width: 100%; max-width: 94px; aspect-ratio: 1; border: 1px solid #d9cebf; background: transparent; color: #c9bdac; }
+.ritual-stamp-circle svg { width: 60%; height: 60%; position: relative; z-index: 1; }
+.ritual-stamp-number { font-size: 10px; color: #83715e; letter-spacing: .04em; }
+.ritual-stamps .is-milestone .ritual-stamp-circle { border-style: dashed; border-color: #a88c70; }
+.ritual-stamps .is-earned { animation: ritual-stamp-press .6s cubic-bezier(.16,.8,.3,1) both; }
+.ritual-stamps .is-earned .ritual-stamp-circle { color: #fff8ed; background: var(--ritual-ink); border: 1px solid var(--ritual-ink); transform: rotate(-6deg); box-shadow: inset 0 0 0 4px #ffffff0d; }
+.ritual-stamps .is-earned:nth-child(3n) .ritual-stamp-circle { transform: rotate(6deg); }
+.ritual-stamp-ink { position: absolute; inset: -7px; border: 1px solid #a68b6e; border-radius: 50%; opacity: 0; animation: ritual-ink .75s ease-out both; animation-delay: inherit; }
+.ritual-progress { padding-top: 28px; }
+.ritual-progress progress { display: block; appearance: none; width: 100%; height: 3px; border: 0; background: #e6ddcf; border-radius: 2px; overflow: hidden; }
+.ritual-progress progress::-webkit-progress-bar { background: #e6ddcf; }
+.ritual-progress progress::-webkit-progress-value { background: #846349; }
+.ritual-progress progress::-moz-progress-bar { background: #846349; }
+.ritual-progress p { margin-top: 14px; font-size: 12px; color: #77604e; }
+.ritual .ritual-fine-print { font-size: 11px; color: #7d6d5d; line-height: 1.7; margin-top: 16px; }
+.ritual-rewards { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
+.ritual-reward { border: 1px solid var(--ritual-border); padding: 24px 28px; border-radius: 12px; background: #f8f3eb; }
+.ritual-reward-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.ritual-reward h3 { font: 400 23px Georgia,serif; margin: 9px 0; }
+.ritual-reward p { font-size: 12px; color: #7d6a58; line-height: 1.7; }
+.ritual-reward-status { font: 400 12px Georgia,serif; text-transform: uppercase; letter-spacing: .1em; text-align: right; max-width: 150px; line-height: 1.7; color: #735239; flex-shrink: 0; }
+.ritual-reward-available { border-color: #937252; background: #eee4d6; }
+.ritual-reward-redeemed .ritual-reward-status { color: #4c6652; }
+.ritual-conditions { margin-top: 14px; border-top: 1px solid #e2d7c9; padding-top: 12px; font-size: 11px; }
+.ritual-conditions summary { cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.ritual-conditions p { margin-top: 10px; font-size: 11px; white-space: pre-line; }
+.ritual-reward .ritual-conditions-pending { font-size: 10px; margin-top: 12px; color: #877362; }
+.ritual-activity { margin-top: 36px; }
+.ritual-activity>h3 { margin-bottom: 16px; }
+.ritual-activity ul { list-style: none; padding: 0; margin: 0; }
+.ritual-activity li { padding: 20px 0; display: flex; align-items: center; justify-content: space-between; gap: 18px; border-bottom: 1px solid var(--ritual-border); }
+.ritual-activity strong { display: block; font-size: 13px; font-weight: 400; }
+.ritual-activity small { display: block; font-size: 11px; color: #7b6957; margin-top: 5px; }
+.ritual-activity time { font-size: 11px; white-space: nowrap; color: #7c6856; }
+.ritual-empty-activity { text-align: center; padding: 26px 20px; border: 1px dashed #d2c2af; border-radius: 12px; }
+.ritual-empty-activity>span { display: block; font-size: 30px; margin-bottom: 12px; color: #977956; }
+.ritual-empty-activity p { font: 400 22px Georgia,serif; }
+.ritual-empty-activity small { display: block; margin-top: 10px; font-size: 12px; color: #7d6d5d; line-height: 1.7; }
+.ritual-footer { margin-top: 24px; text-align: center; }
+.ritual-footer p { font-size: 11px; color: #7f6b59; line-height: 1.7; }
+.ritual-footer a { display: inline-block; margin-top: 18px; font-size: 12px; }
+.ritual-compact { margin: 34px 0; max-width: none; }
+.ritual-error h2 { font: 400 24px Georgia,serif; margin-bottom: 12px; }
+.ritual-error p { margin-bottom: 16px; }
+.ritual-welcome { max-width: 720px; margin: auto; text-align: center; }
+.ritual-welcome>p { margin: 0 0 24px; font-size: 15px; }
+.ritual-welcome ul { list-style: none; padding: 0; display: grid; gap: 12px; text-align: left; }
+.ritual-welcome li { border: 1px solid #d8ccbd; padding: 20px; border-radius: 10px; background: #f9f5ee; }
+.ritual-welcome li strong { display: block; font: 400 23px Georgia,serif; margin-bottom: 6px; }
+.ritual-welcome li span { font-size: 12px; }
+.ritual-welcome>a { display: inline-block; padding: 14px 24px; background: #735239; color: #fff8ed; border-radius: 5px; margin: 16px 0; font-size: 13px; }
+.ritual-welcome>small { display: block; font-size: 11px; line-height: 1.7; }
+@keyframes ritual-stamp-press { 0% { opacity: 0; transform: scale(1.35) rotate(-12deg); } 55% { opacity: 1; transform: scale(.94) rotate(2deg); } 100% { opacity: 1; transform: scale(1) rotate(0); } }
+@keyframes ritual-ink { 0% { opacity: .6; transform: scale(.8); } 100% { opacity: 0; transform: scale(1.15); } }
+@media(max-width:600px) { .ritual-page .platform>header { flex-direction: row; align-items: center; font-size: 11px; gap: 12px; }.ritual-page .platform>header nav { gap: 12px; }.ritual-page .platform>header nav a:first-child { display: none; }.ritual-heading { display: block; }.ritual-heading h2 { font-size: 31px; }.ritual-heading p { font-size: 12px; }.ritual-refresh { margin-top: 10px; }.ritual-card { padding: 24px 18px; border-radius: 12px; }.ritual-card-top { margin-bottom: 24px; }.ritual-card-top h3 { font-size: 11px; }.ritual-stamps { gap: 18px 10px; }.ritual-stamp-circle { max-width: 64px; }.ritual-stamp-number { font-size: 9px; }.ritual-reward { padding: 22px 18px; }.ritual-reward-row { gap: 12px; }.ritual-reward h3 { font-size: 21px; }.ritual-reward-status { font-size: 10px; max-width: 100px; }.ritual-reward .ritual-eyebrow { font-size: 8px; }.ritual-reward p { font-size: 11px; }.ritual-activity time { font-size: 10px; }.ritual-activity strong { font-size: 12px; } }
+@media(prefers-reduced-motion:reduce) { .ritual-stamps .is-earned,.ritual-stamp-ink { animation: none; } }

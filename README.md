@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lumière Beauty
+
+La plataforma se desarrolla incrementalmente sobre el sitio existente. AgendaPro sigue disponible; el turnero propio, cuentas y compras requieren configurar Supabase antes de activarse.
+
+- [Implementación y activación](docs/IMPLEMENTACION.md)
+- [Evidencia de validación](docs/VERIFICACION.md)
+- [Publicación para revisión y cierre de operaciones sin pagos](docs/PUBLICACION.md)
+- [Arquitectura aprobada](docs/superpowers/specs/2026-10-16-lumiere-platform-design.md)
+- Variables sin secretos: [.env.example](.env.example). Las credenciales locales van en `.env.local`, ignorado por Git.
+
+En Windows usar `npm.cmd`. Pruebas: `npm.cmd test`; validaciones: `npm.cmd run lint`, `npm.cmd run typecheck`, `npm.cmd run build`.
+
+---
+
+Referencia del proyecto Next.js original:
 
 ## Getting Started
 
