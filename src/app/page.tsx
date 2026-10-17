@@ -112,7 +112,7 @@ export default function Home() {
   <div className="about-image shop-about-image"><Image src="/team/nosotras.jpg" alt="El equipo de Lumière Beauty en el estudio" fill sizes="(max-width: 900px) 88vw, 44vw" /></div>
   <div className="about-content">
     <span className="eyebrow">SOBRE LUMIÈRE</span>
-    <h2>Tu espacio de belleza y bienestar en Palermo.</h2>
+    <h2>Tu espacio de belleza y bienestar</h2>
     <p>En Lumière creemos que el cuidado personal merece un espacio propio, dedicado a cada detalle. Somos un estudio privado de estética y belleza enfocado en la salud de la piel y el bienestar personal, con una atención profesional y completamente personalizada.</p>
     <p>Acompañamos a cada persona mediante evaluaciones y tratamientos de cosmetología y dermatocosmiatría adaptados a sus necesidades. Además, ofrecemos una propuesta integral que abarca desde estilismo de cejas, lifting de pestañas, manicuría, pedicuría y depilación láser, hasta masajes descontracturantes y reflexología para un momento de relajación profunda.</p>
     <p>También nos apasiona acompañarte en tus fechas especiales con servicio de maquillaje y peinado para novias, madrinas y eventos sociales, trabajando siempre con productos de primera calidad.</p>
