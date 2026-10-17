@@ -112,11 +112,11 @@ export default function Home() {
   <div className="about-image shop-about-image"><Image src="/team/nosotras.jpg" alt="El equipo de Lumière Beauty en el estudio" fill sizes="(max-width: 900px) 88vw, 44vw" /></div>
   <div className="about-content">
     <span className="eyebrow">SOBRE LUMIÈRE</span>
-    <h2>Tu espacio de belleza en Palermo.</h2>
-    <p>Lumière Beauty es un estudio privado de estética y belleza dedicado al cuidado de la piel y al bienestar, con atención profesional y personalizada.</p>
-    <p>Combinamos cosmetología y dermatocosmiatría con tratamientos faciales y corporales, cejas y pestañas, manos y pies, masajes y depilación láser.</p>
-    <p>También te acompañamos en ocasiones especiales con maquillaje y peinado para novias y eventos.</p>
-    <p className="shop-about-closing">Un momento para vos, para cuidar tu piel y realzar tu belleza.</p>
+    <h2>Tu espacio de belleza y bienestar en Palermo.</h2>
+    <p>En Lumière creemos que el cuidado personal merece un espacio propio, dedicado a cada detalle. Somos un estudio privado de estética y belleza enfocado en la salud de la piel y el bienestar personal, con una atención profesional y completamente personalizada.</p>
+    <p>Acompañamos a cada persona mediante evaluaciones y tratamientos de cosmetología y dermatocosmiatría adaptados a sus necesidades. Además, ofrecemos una propuesta integral que abarca desde estilismo de cejas, lifting de pestañas, manicuría, pedicuría y depilación láser, hasta masajes descontracturantes y reflexología para un momento de relajación profunda.</p>
+    <p>También nos apasiona acompañarte en tus fechas especiales con servicio de maquillaje y peinado para novias, madrinas y eventos sociales, trabajando siempre con productos de primera calidad.</p>
+    <p className="shop-about-closing"><em>Te esperamos en Lumière para que disfrutes de una pausa para vos, mientras cuidamos tu piel y realzamos tu belleza natural.</em></p>
     <a href="/servicios" className="primary-button">CONOCÉ NUESTROS SERVICIOS</a>
     <a href="https://maps.app.goo.gl/wK2Db8JKDRtgoRxe8" className="text-link" target="_blank" rel="noopener noreferrer">CÓMO LLEGAR AL ESTUDIO ↗</a>
   </div>
