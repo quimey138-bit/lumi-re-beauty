@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { ShopNavTools } from "../../components/cart-trigger";
+import { SiteHeader } from "../../components/site-header";
 import { BrandLogo } from "../components/brand-logo";
 import { ProductsGrid } from "../components/products";
 import { whatsappUrl } from "../lib/whatsapp";
@@ -10,25 +9,7 @@ export default function InsumosPage() {
   return (
     <main className="inner-page">
       {/* HEADER */}
-      <header className="navbar">
-        <Link href="/" className="brand-home" aria-label="Lumière — Inicio">
-          <BrandLogo />
-        </Link>
-
-        <nav className="main-nav">
-          <Link href="/">Inicio</Link>
-          <Link href="/insumos">Insumos</Link>
-          <Link href="/servicios">Servicios</Link>
-          <Link href="/#nosotros">Nosotras</Link>
-        </nav>
-
-        <div className="nav-actions">
-          <ShopNavTools />
-          <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
-            AGENDAR TURNO
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* HERO */}
       <section className="inner-hero">

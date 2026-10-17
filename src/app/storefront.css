@@ -1,5 +1,14 @@
 .shop-eyebrow { font-size: 9px; letter-spacing: .17em; font-weight: 500; color: #806b59; }
 .shop-nav-tools { display: flex; align-items: center; gap: 12px; }
+.unified-navbar { gap: 20px; }
+.unified-navbar .main-nav { gap: clamp(12px, 1.6vw, 26px); }
+.unified-navbar .main-nav a { white-space: nowrap; font-size: 11px; letter-spacing: .08em; }
+.unified-navbar .brand-home,.unified-navbar .nav-actions { flex-shrink: 0; }
+.unified-navbar .menu-button { display: none !important; }
+@media(max-width:1100px) { .unified-navbar .main-nav { display: none; }.unified-navbar .menu-button { display: flex !important; } }
+@media(min-width:901px) and (max-width:1200px) { .unified-navbar { padding-inline: 3vw; }.unified-navbar .main-nav { gap: 12px; }.unified-navbar .main-nav a { font-size: 10px; letter-spacing: .04em; }.unified-navbar .shop-nav-tools { gap: 0; } }
+.mobile-menu { max-height: calc(100dvh - 104px); overflow-y: auto; }
+@media(max-width:600px) { .mobile-menu { max-height: calc(100dvh - 86px); } }
 .shop-icon-link { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 44px; color: #735a44; }
 .shop-cart-trigger,.navbar .shop-cart-trigger { display: inline-flex; align-items: center; justify-content: center; position: relative; gap: 6px; border: 0; background: transparent; color: #735a44; cursor: pointer; padding: 0 4px; min-height: 32px; font: inherit; letter-spacing: normal; }
 .platform-toolbar .shop-cart-trigger { text-decoration: underline; text-underline-offset: 4px; }

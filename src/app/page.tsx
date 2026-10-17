@@ -2,75 +2,18 @@
 import { BrandLogo } from "./components/brand-logo";
 
 import { ProductsGrid } from "./components/products";
-import { useState } from "react";
 import Image from "next/image";
-import { ShopNavTools } from "../components/cart-trigger";
+import { SiteHeader } from "../components/site-header";
 import { whatsappUrl } from "./lib/whatsapp";
 import { ServicesGrid, ServicesHelp } from "./components/services";
 
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <main>
 
 {/* NAVBAR */}
-<header className="navbar">
-  <a href="#inicio" className="brand-home" aria-label="Lumière — Inicio">
-    <BrandLogo />
-  </a>
-
-  <nav className="main-nav">
-    <a href="#inicio">Inicio</a>
-    <a href="#insumos">Insumos</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#nosotros">Nosotras</a>
-  </nav>
-
-  <div className="nav-actions">
-    <ShopNavTools />
-    <a href="https://lumiere.site.agendapro.com/ar/sucursal/144425" className="nav-appointment">
-      AGENDAR TURNO
-    </a>
-
-        <button
-      className="menu-button"
-      aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
-      aria-expanded={menuOpen}
-      aria-controls="lumiere-mobile-menu"
-      onClick={() => setMenuOpen(!menuOpen)}
-    >
-      {menuOpen ? "×" : "☰"}
-    </button>
-  </div>
-</header>
-{menuOpen && (
-  <div className="mobile-menu" id="lumiere-mobile-menu">
-    <a href="#inicio" onClick={() => setMenuOpen(false)}>
-      Inicio
-    </a>
-
-    <a href="#insumos" onClick={() => setMenuOpen(false)}>
-      Insumos
-    </a>
-
-    <a href="#servicios" onClick={() => setMenuOpen(false)}>
-      Servicios
-    </a>
-
-    <a href="#nosotros" onClick={() => setMenuOpen(false)}>
-      Nosotras
-    </a>
-
-    <a
-      href="https://lumiere.site.agendapro.com/ar/sucursal/144425"
-      className="mobile-menu-button"
-      onClick={() => setMenuOpen(false)}
-    >
-      AGENDAR TURNO
-    </a>
-  </div>
-)}
+<SiteHeader home />
 
 {/* HERO */}
 <section id="inicio" className="hero">

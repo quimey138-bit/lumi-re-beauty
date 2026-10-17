@@ -1,5 +1,11 @@
 # Evidencia de validación — 16 de octubre de 2026
 
+## Encabezado unificado — 17 de octubre de 2026
+
+La portada, Insumos y Servicios comparten una sola barra. Los enlaces a reservar y sellos están integrados; la cuenta usa exclusivamente el ícono de persona junto al carrito, conservando su nombre accesible. Se comprobó en navegador a 1366 px (sin desbordamiento, franja duplicada ausente) y a 390 px (menú desplegable con los seis enlaces y cierre por Escape, acceso a cuenta sin texto visible). Tests: 81/81, salida 0, 50,18 s; lint, TypeScript y build con salida 0.
+
+El primer despliegue de la plataforma (`bcaf8b6`) fue publicado correctamente por la integración GitHub/Vercel en el dominio público. Se verificaron 11 rutas/recursos HTTP, protección sin sesión de administración/cuenta/profesional, callback del dominio público, foto grupal, buscador, carrusel hasta 8/8 y cantidades/subtotal del carrito. No se realizaron pagos, reservas ni entregas. El seguimiento se obtuvo del estado Vercel del commit en GitHub; no se dispone de acceso a logs privados por el 403 del conector de Vercel.
+
 ## Preparación de publicación (estado actual)
 
 - Suite actual `npm.cmd test`: **12 archivos, 81 pruebas aprobadas**, salida 0, 29,71 s. Incluye 23 pruebas SQL y el rechazo HTTP del alta de turnos sin pago de seña.

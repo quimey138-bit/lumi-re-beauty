@@ -4,6 +4,8 @@ Cambios aprobados en conversación: mostrar Insumos antes de Servicios en la por
 
 ## Implementación
 
+- El encabezado de portada, Insumos y Servicios usa una única barra compartida. «Reservar en Lumière» y «Mis sellos» se integran al menú; la cuenta se representa solo con el ícono de persona al lado del carrito, con nombre accesible para lectores de pantalla. Se elimina la franja superior duplicada. En móvil los enlaces están en el menú desplegable y los íconos siguen visibles.
+
 - El carrusel usa el catálogo real existente y conserva sus precios, imágenes e identificación para analítica. Tiene flechas, indicadores por grupo, navegación con teclado y desplazamiento táctil. No tiene reproducción automática. En `/insumos` también hay un buscador sin distinción de tildes.
 - «Elegidos para tu rutina» presenta la selección existente; no se inventaron rankings de ventas, reseñas, marcas ni productos.
 - «Sobre Lumière» utiliza `public/team/nosotras.jpg`, sin imágenes generadas. El texto fue resumido del proporcionado por el usuario. Incluye acceso a Servicios y al enlace de Maps recibido.
